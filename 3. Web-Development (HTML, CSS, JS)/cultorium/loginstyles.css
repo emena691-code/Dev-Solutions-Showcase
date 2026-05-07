@@ -1,0 +1,53 @@
+body {
+    background-image: url("3x/background_2.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.separacion {
+    margin: 320px 0;
+}
+.separacion2 {
+    margin: 370px 0;
+}
+
+.register {
+    text-align: center;
+    margin: 50px 0;
+}
+
+.access {
+    text-align: center;
+    background-color: transparent;
+}
+
+.access_button {
+    background-image: url("3x/Recurso_2.png");
+    background-color: transparent;
+    background-position: center;
+    background-size: auto;
+    background-repeat: no-repeat;
+    border: 0px;
+    cursor: pointer;
+}
+
+.outsourced {
+    background-image: url("2x/Recurso_8.png");
+    background-color: transparent;
+    background-position: center;
+    background-repeat: no-repeat;
+    border: 0px;
+    cursor: pointer;
+}
+
+.contacts {
+    background-image: url("2x/Recurso_6.png");
+    background-color: transparent;
+    background-position: center;
+    background-repeat: no-repeat;
+    border: 0px;
+    margin: 50px;
+    cursor: pointer;
+}

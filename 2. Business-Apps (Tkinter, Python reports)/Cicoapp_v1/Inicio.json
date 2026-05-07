@@ -1,0 +1,11 @@
+{
+    "entrada": {
+        "nombre": "",
+        "edad": null,
+        "correo": "",
+        "filtro": {
+            "campo": "",
+            "valor": ""
+        }
+    }
+}

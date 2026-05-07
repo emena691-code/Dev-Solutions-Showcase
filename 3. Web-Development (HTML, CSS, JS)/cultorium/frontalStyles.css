@@ -1,0 +1,21 @@
+body {
+    background-image: url("1x/Recurso_9.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    background-attachment: fixed;
+}
+
+.projects {
+    size: 200px;
+}
+
+.programming img,
+    .photograph img,
+        .events img {
+            background-image: url("3x/background_2.png");
+            border-radius: 6% 6% 20% 20%; 
+            margin: 10px;
+}
+

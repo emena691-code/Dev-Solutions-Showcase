@@ -1,0 +1,104 @@
+body {
+    background-image: url("1x/backgound_12.png");
+    background-position: top;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+} 
+
+.separacion {
+    display: flex;
+    justify-content: center; /* centra horizontal */
+    align-items: center;     /* centra vertical si quieres */
+    margin: 125px 0;
+    background-color: transparent;
+}
+
+.logo {
+    background-color: transparent;
+    border: 0cap;
+    text-align: center;
+    background-position: center;
+    cursor: pointer;
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+}
+
+.separacion2 {
+    background-color: transparent;
+    font-size: 175px;
+    color: transparent;
+}
+
+.buttons_two {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 300px;
+    background-position: center;
+    text-align: center;
+    background-color: transparent;   
+}
+
+@media (max-width: 768px) {
+    .buttons_two {
+        flex-direction: column; /* se apilan verticalmente */
+        gap: 20px;              /* separación entre ellos */
+    }
+}
+
+
+.buttons_two img {
+    width: 400px;   /* controlas el tamaño de la imagen */
+    height: auto;   /* mantiene proporción */
+    display: block;
+    margin: 0 auto;
+}
+
+.customers {
+    background-image: url("1x/Recurso_2.png");
+    background-size: 85%;
+    background-repeat: no-repeat;
+    background-color: transparent;
+    background-position: center;
+    cursor: pointer;
+    border-style: none;
+}
+
+.button_one {
+    text-align: center;
+    margin: 160px 0;
+}
+.button_one img {
+    width: 550px;   /* controlas el tamaño de la imagen */
+    height: auto;   /* mantiene proporción */
+    display: block;
+    margin: 0 auto;
+}
+.smart {
+    background-image: url("1x/Recurso_7.png");
+    background-size: 85%;
+    background-repeat: no-repeat;
+    background-color: transparent;
+    background-position: center;
+    cursor: pointer;
+    border-style: none;
+}
+
+.sepa {
+    background-color: transparent;
+    background-repeat: no-repeat;
+
+}
+
+.studio_info {
+    background-image: url("1x/Recurso_4.png");
+    background-size: 85%;
+    background-repeat: no-repeat;
+    background-color: transparent;
+    background-position: center;
+    cursor: pointer;
+    border-style: none;
+}
+

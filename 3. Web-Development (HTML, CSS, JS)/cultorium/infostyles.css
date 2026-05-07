@@ -1,0 +1,87 @@
+body {
+    background-image: url("x4/backgroun_a12.png");
+    background-position: left;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.buttons4 {
+    position: absolute;
+    left: 40%;
+    top: 14%;
+    display: grid;
+    grid-template-columns:auto auto auto;
+    background-position: center;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+
+.separacion {
+    display: flex;
+    justify-content: center;
+    align-items: center;     
+    margin: 215px;
+    background-color: transparent;
+}
+
+@media (max-width: 1080px) {
+    .buttons4 {
+        display: flex;
+        flex-direction: column;
+        gap: 180px;
+        top: -100%;          
+    }
+}
+@media (max-width: 740px) {
+    .buttons4 {
+        gap: 380px;
+        top: -200%;          
+    }
+}
+
+.layout {
+    position: relative;
+    display: flex;
+    height: 100px;
+}
+
+.back {
+    position: absolute;
+    left: 0;
+    top: -10%;
+}
+
+@media (max-width: 1080px) {
+    .back {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;              
+    }
+}
+
+.projects {
+    background-image: url("x4/Recurso_12.png");
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size: 260px;
+    display: flex;
+    height: 50px;
+    background-color: transparent;
+    border: 0px;
+    margin: 0px 70px;
+}
+
+.contact_info {
+    background-image: url("x4/Recurso_13.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 260px;
+    display: flex;
+    height: 50px;
+    background-color: transparent;
+    border: 0px;
+    margin: 0px 70px;
+}
+
